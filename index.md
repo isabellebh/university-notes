@@ -1,37 +1,58 @@
-## Welcome to GitHub Pages
+# Learning HTML Basics 
 
-You can use the [editor on GitHub](https://github.com/isabellebh/university-notes/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## what is HTML? 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- HTML structures all webpages on the internet
+- HTML code tells web browsers how to display elements on the webpage, such as text, images, and links
+- an element in HTML consists of an opening tag <>, a closing tag </>, and the code in between
 
-### Markdown
+---
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## tags in HTML
 
-```markdown
-Syntax highlighted code block
+`<html> </html>`
+- this will create an HTML webpage
 
-# Header 1
-## Header 2
-### Header 3
+`<body> </body>` 
+- this will define the body of a webpage
 
-- Bulleted
-- List
+**those two elements form the structure of a webpage!**
 
-1. Numbered
-2. List
+---
 
-**Bold** and _Italic_ and `Code` text
+`<button> hello world </button>`
+- this will create a button called "hello world" on the webpage
 
-[Link](url) and ![Image](src)
-```
+`<p> hello world </p>`
+- this will create a paragraph that contains the words "hello world" on the webpage
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+`<h1> hello world </h1>`
+- this will create a heading called "hello world" on the webpage
+- there are many different headings depending on the number; in h1-h6, the size of the heading decreases as the number increases
 
-### Jekyll Themes
+`<head> </head>`
+- this is the title of a webpage. it appears in the tab or window of the web browser
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/isabellebh/university-notes/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+`<head> <title> hello world </title> </head>`
+- this will give the webpage the title, "hello world"
 
-### Support or Contact
+`<!doctype html>` 
+- this will tell the web browser what version of HTML we are using. we will use this since we are using the latest version
+- usually goes at the top
+- if this tag is not present, the web browser will have to guess which HTML version is being used
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+---
+
+**text enhancers**
+
+`<br>`
+- this will cause a line break when placed next to a piece of code. for example, inside a paragraph tag
+
+`<em> </em>`
+- when a string is placed between these tags, the word will be italicized
+
+`<strong> </strong>`
+- when a string is placed between these tags, the word will be bolded
+
+---
+
